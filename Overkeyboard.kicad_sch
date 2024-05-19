@@ -510,175 +510,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4238,6 +4069,12 @@
 		(uuid "ca29f0cd-a170-4639-9d8f-138f8ea81fe0")
 	)
 	(junction
+		(at 90.17 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca59cc75-a916-4e3d-86bd-b900fe605994")
+	)
+	(junction
 		(at 259.08 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6605,6 +6442,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 97.79) (xy 90.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935c14b1-0a0b-40e3-8ffc-a95650061221")
+	)
+	(wire
+		(pts
 			(xy 292.1 25.4) (xy 303.53 25.4)
 		)
 		(stroke
@@ -7552,6 +7399,16 @@
 			(type default)
 		)
 		(uuid "ca72d253-0f57-4f5a-8b0c-10d4229a4cea")
+	)
+	(wire
+		(pts
+			(xy 90.17 85.09) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1b0b1d-1c20-4d51-a5cf-4a7486415c35")
 	)
 	(wire
 		(pts
@@ -10694,7 +10551,7 @@
 			"rwAAAABJRU5ErkJggg=="
 		)
 	)
-	(global_label "COL24"
+	(global_label "COL25"
 		(shape input)
 		(at 388.62 127 270)
 		(fields_autoplaced yes)
@@ -10716,7 +10573,7 @@
 			)
 		)
 	)
-	(global_label "COL10"
+	(global_label "COL11"
 		(shape input)
 		(at 227.33 127 270)
 		(fields_autoplaced yes)
@@ -10738,7 +10595,7 @@
 			)
 		)
 	)
-	(global_label "COL15"
+	(global_label "COL16"
 		(shape input)
 		(at 271.78 127 270)
 		(fields_autoplaced yes)
@@ -10782,7 +10639,7 @@
 			)
 		)
 	)
-	(global_label "COL14"
+	(global_label "COL15"
 		(shape input)
 		(at 259.08 127 270)
 		(fields_autoplaced yes)
@@ -10804,7 +10661,7 @@
 			)
 		)
 	)
-	(global_label "COL22"
+	(global_label "COL23"
 		(shape input)
 		(at 364.49 127 270)
 		(fields_autoplaced yes)
@@ -10826,7 +10683,7 @@
 			)
 		)
 	)
-	(global_label "COL11"
+	(global_label "COL12"
 		(shape input)
 		(at 238.76 127 270)
 		(fields_autoplaced yes)
@@ -10870,7 +10727,7 @@
 			)
 		)
 	)
-	(global_label "COL18"
+	(global_label "COL19"
 		(shape input)
 		(at 313.69 127 270)
 		(fields_autoplaced yes)
@@ -10914,7 +10771,7 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "COL3"
 		(shape input)
 		(at 135.89 127 270)
 		(fields_autoplaced yes)
@@ -10936,7 +10793,7 @@
 			)
 		)
 	)
-	(global_label "COL13"
+	(global_label "COL14"
 		(shape input)
 		(at 255.27 127 270)
 		(fields_autoplaced yes)
@@ -10958,7 +10815,7 @@
 			)
 		)
 	)
-	(global_label "COL23"
+	(global_label "COL24"
 		(shape input)
 		(at 375.92 127 270)
 		(fields_autoplaced yes)
@@ -10971,6 +10828,28 @@
 		(uuid "54d91f41-ee20-4252-b1d1-9961e7a9730e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 375.92 136.0328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 90.17 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62d1ed03-ea21-4bb5-a4d9-c832d4009aad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 134.8233 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +10881,7 @@
 			)
 		)
 	)
-	(global_label "COL7"
+	(global_label "COL8"
 		(shape input)
 		(at 190.5 127 270)
 		(fields_autoplaced yes)
@@ -11068,7 +10947,7 @@
 			)
 		)
 	)
-	(global_label "COL0"
+	(global_label "COL1"
 		(shape input)
 		(at 104.14 127 270)
 		(fields_autoplaced yes)
@@ -11112,7 +10991,7 @@
 			)
 		)
 	)
-	(global_label "COL19"
+	(global_label "COL20"
 		(shape input)
 		(at 325.12 127 270)
 		(fields_autoplaced yes)
@@ -11134,7 +11013,7 @@
 			)
 		)
 	)
-	(global_label "COL20"
+	(global_label "COL21"
 		(shape input)
 		(at 337.82 127 270)
 		(fields_autoplaced yes)
@@ -11156,7 +11035,7 @@
 			)
 		)
 	)
-	(global_label "COL5"
+	(global_label "COL6"
 		(shape input)
 		(at 167.64 127 270)
 		(fields_autoplaced yes)
@@ -11200,7 +11079,7 @@
 			)
 		)
 	)
-	(global_label "COL12"
+	(global_label "COL13"
 		(shape input)
 		(at 251.46 127 270)
 		(fields_autoplaced yes)
@@ -11244,7 +11123,7 @@
 			)
 		)
 	)
-	(global_label "COL6"
+	(global_label "COL7"
 		(shape input)
 		(at 179.07 127 270)
 		(fields_autoplaced yes)
@@ -11266,7 +11145,7 @@
 			)
 		)
 	)
-	(global_label "COL1"
+	(global_label "COL2"
 		(shape input)
 		(at 119.38 127 270)
 		(fields_autoplaced yes)
@@ -11310,7 +11189,7 @@
 			)
 		)
 	)
-	(global_label "COL4"
+	(global_label "COL5"
 		(shape input)
 		(at 154.94 127 270)
 		(fields_autoplaced yes)
@@ -11354,7 +11233,7 @@
 			)
 		)
 	)
-	(global_label "COL21"
+	(global_label "COL22"
 		(shape input)
 		(at 353.06 127 270)
 		(fields_autoplaced yes)
@@ -11376,7 +11255,7 @@
 			)
 		)
 	)
-	(global_label "COL16"
+	(global_label "COL17"
 		(shape input)
 		(at 289.56 127 270)
 		(fields_autoplaced yes)
@@ -11398,7 +11277,7 @@
 			)
 		)
 	)
-	(global_label "COL8"
+	(global_label "COL9"
 		(shape input)
 		(at 203.2 127 270)
 		(fields_autoplaced yes)
@@ -11420,7 +11299,7 @@
 			)
 		)
 	)
-	(global_label "COL9"
+	(global_label "COL10"
 		(shape input)
 		(at 214.63 127 270)
 		(fields_autoplaced yes)
@@ -11432,7 +11311,7 @@
 		)
 		(uuid "cdb76a55-9ee7-4d3d-bf5c-4fcfdd50281d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 134.8233 90)
+			(at 214.63 136.0328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11442,7 +11321,7 @@
 			)
 		)
 	)
-	(global_label "COL3"
+	(global_label "COL4"
 		(shape input)
 		(at 143.51 127 270)
 		(fields_autoplaced yes)
@@ -11486,7 +11365,7 @@
 			)
 		)
 	)
-	(global_label "COL17"
+	(global_label "COL18"
 		(shape input)
 		(at 302.26 127 270)
 		(fields_autoplaced yes)
@@ -11534,7 +11413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 147.32 44.45 0)
 			(effects
 				(font
@@ -11602,7 +11481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -11670,7 +11549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 80.01 0)
 			(effects
 				(font
@@ -11740,7 +11619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.22 100.33 90)
 			(effects
 				(font
@@ -11826,7 +11705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 284.48 15.24 0)
 			(effects
 				(font
@@ -11896,7 +11775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 52.07 90)
 			(effects
 				(font
@@ -11982,7 +11861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 162.56 80.01 0)
 			(effects
 				(font
@@ -12050,7 +11929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 222.25 92.71 0)
 			(effects
 				(font
@@ -12120,7 +11999,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 87.63 90)
 			(effects
 				(font
@@ -12206,7 +12085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 26.67 0)
 			(effects
 				(font
@@ -12276,7 +12155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 378.46 34.29 90)
 			(effects
 				(font
@@ -12362,7 +12241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 27.94 55.88 0)
 			(effects
 				(font
@@ -12432,7 +12311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 22.86 90)
 			(effects
 				(font
@@ -12518,7 +12397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 92.71 0)
 			(effects
 				(font
@@ -12586,7 +12465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 191.77 68.58 0)
 			(effects
 				(font
@@ -12656,7 +12535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 100.33 90)
 			(effects
 				(font
@@ -12744,7 +12623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 63.5 90)
 			(effects
 				(font
@@ -12830,7 +12709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 80.01 0)
 			(effects
 				(font
@@ -12900,7 +12779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 87.63 90)
 			(effects
 				(font
@@ -12988,7 +12867,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 52.07 90)
 			(effects
 				(font
@@ -13074,7 +12953,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 320.04 15.24 0)
 			(effects
 				(font
@@ -13142,7 +13021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 173.99 80.01 0)
 			(effects
 				(font
@@ -13210,7 +13089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -13280,7 +13159,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 111.76 90)
 			(effects
 				(font
@@ -13366,7 +13245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 135.89 26.67 0)
 			(effects
 				(font
@@ -13436,7 +13315,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 87.63 90)
 			(effects
 				(font
@@ -13524,7 +13403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 184.15 34.29 90)
 			(effects
 				(font
@@ -13610,7 +13489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -13680,7 +13559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 111.76 90)
 			(effects
 				(font
@@ -13766,7 +13645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 212.09 15.24 0)
 			(effects
 				(font
@@ -13834,7 +13713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 254 15.24 0)
 			(effects
 				(font
@@ -13902,7 +13781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 236.22 55.88 0)
 			(effects
 				(font
@@ -13970,7 +13849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -14040,7 +13919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 87.63 90)
 			(effects
 				(font
@@ -14126,7 +14005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 297.18 105.41 0)
 			(effects
 				(font
@@ -14194,7 +14073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 284.48 44.45 0)
 			(effects
 				(font
@@ -14264,7 +14143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 34.29 90)
 			(effects
 				(font
@@ -14352,7 +14231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 195.58 34.29 90)
 			(effects
 				(font
@@ -14440,7 +14319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 52.07 90)
 			(effects
 				(font
@@ -14528,7 +14407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 186.69 76.2 90)
 			(effects
 				(font
@@ -14614,7 +14493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 44.45 0)
 			(effects
 				(font
@@ -14939,7 +14818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -15007,7 +14886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 55.88 0)
 			(effects
 				(font
@@ -15075,7 +14954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 297.18 68.58 0)
 			(effects
 				(font
@@ -15143,7 +15022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 15.24 0)
 			(effects
 				(font
@@ -15213,7 +15092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 111.76 90)
 			(effects
 				(font
@@ -15299,7 +15178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 207.01 44.45 0)
 			(effects
 				(font
@@ -15367,7 +15246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -15435,7 +15314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -15509,7 +15388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 233.68 92.71 0)
 			(effects
 				(font
@@ -15577,7 +15456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 135.89 15.24 0)
 			(effects
 				(font
@@ -15647,7 +15526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 153.67 52.07 90)
 			(effects
 				(font
@@ -15733,7 +15612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 44.45 0)
 			(effects
 				(font
@@ -15801,7 +15680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -15869,7 +15748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 227.33 68.58 0)
 			(effects
 				(font
@@ -15939,7 +15818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 106.68 52.07 90)
 			(effects
 				(font
@@ -16025,7 +15904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 120.65 68.58 0)
 			(effects
 				(font
@@ -16093,7 +15972,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 297.18 15.24 0)
 			(effects
 				(font
@@ -16163,7 +16042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 327.66 63.5 90)
 			(effects
 				(font
@@ -16251,7 +16130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 34.29 90)
 			(effects
 				(font
@@ -16339,7 +16218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 231.14 63.5 90)
 			(effects
 				(font
@@ -16427,7 +16306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 219.71 63.5 90)
 			(effects
 				(font
@@ -16515,7 +16394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 80.01 87.63 90)
 			(effects
 				(font
@@ -16603,7 +16482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 180.34 87.63 90)
 			(effects
 				(font
@@ -16691,7 +16570,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 162.56 76.2 90)
 			(effects
 				(font
@@ -16779,7 +16658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 34.29 90)
 			(effects
 				(font
@@ -16867,7 +16746,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 87.63 90)
 			(effects
 				(font
@@ -16955,7 +16834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 120.65 87.63 90)
 			(effects
 				(font
@@ -17041,7 +16920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 297.18 44.45 0)
 			(effects
 				(font
@@ -17111,7 +16990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 153.67 34.29 90)
 			(effects
 				(font
@@ -17197,7 +17076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 284.48 92.71 0)
 			(effects
 				(font
@@ -17267,7 +17146,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 100.33 90)
 			(effects
 				(font
@@ -17353,7 +17232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 222.25 80.01 0)
 			(effects
 				(font
@@ -17421,7 +17300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 15.24 0)
 			(effects
 				(font
@@ -17491,7 +17370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 100.33 90)
 			(effects
 				(font
@@ -17577,7 +17456,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 123.19 44.45 0)
 			(effects
 				(font
@@ -17647,7 +17526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 100.33 90)
 			(effects
 				(font
@@ -17733,7 +17612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 149.86 80.01 0)
 			(effects
 				(font
@@ -17801,7 +17680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 284.48 26.67 0)
 			(effects
 				(font
@@ -17935,7 +17814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 80.01 0)
 			(effects
 				(font
@@ -18005,7 +17884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 76.2 90)
 			(effects
 				(font
@@ -18091,7 +17970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 85.09 80.01 0)
 			(effects
 				(font
@@ -18161,7 +18040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 63.5 90)
 			(effects
 				(font
@@ -18247,7 +18126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 153.67 55.88 0)
 			(effects
 				(font
@@ -18315,7 +18194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 68.58 0)
 			(effects
 				(font
@@ -18383,7 +18262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 123.19 26.67 0)
 			(effects
 				(font
@@ -18451,7 +18330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 92.71 0)
 			(effects
 				(font
@@ -18519,7 +18398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 26.67 0)
 			(effects
 				(font
@@ -18587,7 +18466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 242.57 15.24 0)
 			(effects
 				(font
@@ -18657,7 +18536,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 234.95 76.2 90)
 			(effects
 				(font
@@ -18743,7 +18622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 44.45 0)
 			(effects
 				(font
@@ -18811,7 +18690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 284.48 55.88 0)
 			(effects
 				(font
@@ -18881,7 +18760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 34.29 90)
 			(effects
 				(font
@@ -18967,7 +18846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 80.01 0)
 			(effects
 				(font
@@ -19035,7 +18914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 246.38 92.71 0)
 			(effects
 				(font
@@ -19103,7 +18982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 68.58 0)
 			(effects
 				(font
@@ -19173,7 +19052,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 80.01 100.33 90)
 			(effects
 				(font
@@ -19261,7 +19140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 34.29 90)
 			(effects
 				(font
@@ -19347,7 +19226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -19417,7 +19296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 189.23 52.07 90)
 			(effects
 				(font
@@ -19571,7 +19450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 171.45 34.29 90)
 			(effects
 				(font
@@ -19657,7 +19536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -19725,7 +19604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 200.66 15.24 0)
 			(effects
 				(font
@@ -19793,7 +19672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 15.24 0)
 			(effects
 				(font
@@ -19863,7 +19742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 213.36 52.07 90)
 			(effects
 				(font
@@ -19951,7 +19830,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 195.58 63.5 90)
 			(effects
 				(font
@@ -20039,7 +19918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 22.86 90)
 			(effects
 				(font
@@ -20125,7 +20004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 26.67 0)
 			(effects
 				(font
@@ -20195,7 +20074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 193.04 87.63 90)
 			(effects
 				(font
@@ -20283,7 +20162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 76.2 90)
 			(effects
 				(font
@@ -20369,7 +20248,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 55.88 0)
 			(effects
 				(font
@@ -20437,7 +20316,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -20505,7 +20384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 233.68 80.01 0)
 			(effects
 				(font
@@ -20575,7 +20454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 111.76 90)
 			(effects
 				(font
@@ -20661,7 +20540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 231.14 44.45 0)
 			(effects
 				(font
@@ -20731,7 +20610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 139.7 76.2 90)
 			(effects
 				(font
@@ -20819,7 +20698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 199.39 76.2 90)
 			(effects
 				(font
@@ -20905,7 +20784,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 320.04 44.45 0)
 			(effects
 				(font
@@ -20975,7 +20854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 22.86 90)
 			(effects
 				(font
@@ -21063,7 +20942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 22.86 90)
 			(effects
 				(font
@@ -21149,7 +21028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "random-keyboard-parts:SKQG-1155865"
 			(at 31.75 22.86 0)
 			(effects
 				(font
@@ -21217,7 +21096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 218.44 44.45 0)
 			(effects
 				(font
@@ -21285,7 +21164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 189.23 26.67 0)
 			(effects
 				(font
@@ -21353,7 +21232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 55.88 0)
 			(effects
 				(font
@@ -21423,7 +21302,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 228.6 100.33 90)
 			(effects
 				(font
@@ -21575,7 +21454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 80.01 0)
 			(effects
 				(font
@@ -21643,7 +21522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 297.18 55.88 0)
 			(effects
 				(font
@@ -21711,7 +21590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 92.71 0)
 			(effects
 				(font
@@ -21779,7 +21658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 80.01 0)
 			(effects
 				(font
@@ -21849,7 +21728,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 379.73 63.5 90)
 			(effects
 				(font
@@ -21937,7 +21816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 151.13 76.2 90)
 			(effects
 				(font
@@ -22023,7 +21902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 15.24 0)
 			(effects
 				(font
@@ -22091,7 +21970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 92.71 0)
 			(effects
 				(font
@@ -22161,7 +22040,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 113.03 90)
 			(effects
 				(font
@@ -22313,7 +22192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 158.75 15.24 0)
 			(effects
 				(font
@@ -22383,7 +22262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 52.07 90)
 			(effects
 				(font
@@ -22471,7 +22350,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 34.29 90)
 			(effects
 				(font
@@ -22559,7 +22438,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 184.15 22.86 90)
 			(effects
 				(font
@@ -22645,7 +22524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 68.58 0)
 			(effects
 				(font
@@ -22715,7 +22594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 109.22 87.63 90)
 			(effects
 				(font
@@ -22801,7 +22680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 105.41 0)
 			(effects
 				(font
@@ -22871,7 +22750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 22.86 90)
 			(effects
 				(font
@@ -22957,7 +22836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 248.92 55.88 0)
 			(effects
 				(font
@@ -23025,7 +22904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 246.38 104.14 0)
 			(effects
 				(font
@@ -23095,7 +22974,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 100.33 90)
 			(effects
 				(font
@@ -23181,7 +23060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 240.03 68.58 0)
 			(effects
 				(font
@@ -23251,7 +23130,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 22.86 90)
 			(effects
 				(font
@@ -23337,7 +23216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 104.14 0)
 			(effects
 				(font
@@ -23407,7 +23286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 142.24 22.86 90)
 			(effects
 				(font
@@ -23493,7 +23372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 44.45 0)
 			(effects
 				(font
@@ -23563,7 +23442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 237.49 52.07 90)
 			(effects
 				(font
@@ -23649,7 +23528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -23719,7 +23598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 52.07 90)
 			(effects
 				(font
@@ -23807,7 +23686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 63.5 90)
 			(effects
 				(font
@@ -23893,7 +23772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 147.32 15.24 0)
 			(effects
 				(font
@@ -23961,7 +23840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 173.99 92.71 0)
 			(effects
 				(font
@@ -24029,7 +23908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -24097,7 +23976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -24168,7 +24047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 111.76 90)
 			(effects
 				(font
@@ -24256,7 +24135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 87.63 90)
 			(effects
 				(font
@@ -24342,7 +24221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 68.58 0)
 			(effects
 				(font
@@ -24412,7 +24291,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 22.86 90)
 			(effects
 				(font
@@ -24500,7 +24379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 34.29 90)
 			(effects
 				(font
@@ -24586,7 +24465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 144.78 68.58 0)
 			(effects
 				(font
@@ -24654,7 +24533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 26.67 0)
 			(effects
 				(font
@@ -24722,7 +24601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 332.74 44.45 0)
 			(effects
 				(font
@@ -24858,7 +24737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 378.46 100.33 90)
 			(effects
 				(font
@@ -24946,7 +24825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 327.66 52.07 90)
 			(effects
 				(font
@@ -25098,7 +24977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -25168,7 +25047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 100.33 90)
 			(effects
 				(font
@@ -25256,7 +25135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 63.5 90)
 			(effects
 				(font
@@ -25342,7 +25221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -25410,7 +25289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 44.45 0)
 			(effects
 				(font
@@ -25478,7 +25357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.29 78.74 0)
 			(effects
 				(font
@@ -25548,7 +25427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 100.33 90)
 			(effects
 				(font
@@ -25636,7 +25515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 100.33 90)
 			(effects
 				(font
@@ -25724,7 +25603,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 241.3 87.63 90)
 			(effects
 				(font
@@ -25812,7 +25691,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 76.2 90)
 			(effects
 				(font
@@ -25900,7 +25779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 63.5 90)
 			(effects
 				(font
@@ -25986,7 +25865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 26.67 0)
 			(effects
 				(font
@@ -26120,7 +25999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 320.04 26.67 0)
 			(effects
 				(font
@@ -26188,7 +26067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 24.13 39.37 0)
 			(effects
 				(font
@@ -26256,7 +26135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -26324,7 +26203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 176.53 55.88 0)
 			(effects
 				(font
@@ -26394,7 +26273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 144.78 87.63 90)
 			(effects
 				(font
@@ -26482,7 +26361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 166.37 52.07 90)
 			(effects
 				(font
@@ -26570,7 +26449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 118.11 22.86 90)
 			(effects
 				(font
@@ -26656,7 +26535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 204.47 68.58 0)
 			(effects
 				(font
@@ -26724,7 +26603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 212.09 55.88 0)
 			(effects
 				(font
@@ -26794,7 +26673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 52.07 90)
 			(effects
 				(font
@@ -26882,7 +26761,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 292.1 113.03 90)
 			(effects
 				(font
@@ -26970,7 +26849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 292.1 22.86 90)
 			(effects
 				(font
@@ -27058,7 +26937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 22.86 90)
 			(effects
 				(font
@@ -27144,7 +27023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "random-keyboard-parts:Molex-0548190589"
 			(at 19.05 135.89 0)
 			(effects
 				(font
@@ -27224,7 +27103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 24.13 33.02 0)
 			(effects
 				(font
@@ -27294,7 +27173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 34.29 90)
 			(effects
 				(font
@@ -27382,7 +27261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 327.66 34.29 90)
 			(effects
 				(font
@@ -27468,7 +27347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 167.64 68.58 0)
 			(effects
 				(font
@@ -27536,7 +27415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 92.71 0)
 			(effects
 				(font
@@ -27606,7 +27485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 204.47 87.63 90)
 			(effects
 				(font
@@ -27694,7 +27573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 217.17 87.63 90)
 			(effects
 				(font
@@ -27782,7 +27661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 243.84 63.5 90)
 			(effects
 				(font
@@ -27868,7 +27747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 189.23 15.24 0)
 			(effects
 				(font
@@ -27936,7 +27815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 370.84 55.88 0)
 			(effects
 				(font
@@ -28006,7 +27885,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 327.66 22.86 90)
 			(effects
 				(font
@@ -28092,7 +27971,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 92.71 0)
 			(effects
 				(font
@@ -28160,7 +28039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 176.53 15.24 0)
 			(effects
 				(font
@@ -28230,7 +28109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 153.67 22.86 90)
 			(effects
 				(font
@@ -28316,7 +28195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 284.48 80.01 0)
 			(effects
 				(font
@@ -28386,7 +28265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 148.59 63.5 90)
 			(effects
 				(font
@@ -28474,7 +28353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 201.93 52.07 90)
 			(effects
 				(font
@@ -28560,7 +28439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -28628,7 +28507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 320.04 68.58 0)
 			(effects
 				(font
@@ -28696,7 +28575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -28764,7 +28643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 308.61 15.24 0)
 			(effects
 				(font
@@ -28834,7 +28713,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 87.63 90)
 			(effects
 				(font
@@ -28920,7 +28799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 130.81 92.71 0)
 			(effects
 				(font
@@ -28990,7 +28869,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 34.29 90)
 			(effects
 				(font
@@ -29078,7 +28957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 135.89 63.5 90)
 			(effects
 				(font
@@ -29166,7 +29045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 22.86 90)
 			(effects
 				(font
@@ -29254,7 +29133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 111.76 63.5 90)
 			(effects
 				(font
@@ -29340,7 +29219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 140.97 55.88 0)
 			(effects
 				(font
@@ -29408,7 +29287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -29476,7 +29355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 200.66 26.67 0)
 			(effects
 				(font
@@ -29546,7 +29425,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 52.07 90)
 			(effects
 				(font
@@ -29634,7 +29513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 160.02 63.5 90)
 			(effects
 				(font
@@ -29720,7 +29599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 176.53 26.67 0)
 			(effects
 				(font
@@ -29790,7 +29669,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 261.62 76.2 90)
 			(effects
 				(font
@@ -29851,76 +29730,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 186.69 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac8323e3-233a-4406-9791-c8df301b4d84")
-		(property "Reference" "D160"
-			(at 190.5 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 190.5 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff2ff74f-67eb-43c5-8be4-25cb493ae37c")
-		)
-		(pin "2"
-			(uuid "cc2df48d-4d12-49ff-93a2-ece256e1fc6d")
-		)
-		(instances
-			(project "Overkeyboard"
-				(path "/c54edb05-98e9-4a9d-87ee-578aba22ab18"
-					(reference "D160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 292.1 34.29 90)
 		(unit 1)
@@ -29948,7 +29757,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 292.1 34.29 90)
 			(effects
 				(font
@@ -30036,7 +29845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 100.33 90)
 			(effects
 				(font
@@ -30190,7 +29999,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 52.07 90)
 			(effects
 				(font
@@ -30276,7 +30085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -30344,7 +30153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 224.79 55.88 0)
 			(effects
 				(font
@@ -30412,7 +30221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 215.9 68.58 0)
 			(effects
 				(font
@@ -30480,7 +30289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 209.55 80.01 0)
 			(effects
 				(font
@@ -30548,7 +30357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 212.09 26.67 0)
 			(effects
 				(font
@@ -30616,7 +30425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 332.74 15.24 0)
 			(effects
 				(font
@@ -30686,7 +30495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 76.2 90)
 			(effects
 				(font
@@ -30772,7 +30581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 180.34 68.58 0)
 			(effects
 				(font
@@ -30840,7 +30649,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -30910,7 +30719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 87.63 90)
 			(effects
 				(font
@@ -30998,7 +30807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 111.76 90)
 			(effects
 				(font
@@ -31084,7 +30893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 254 26.67 0)
 			(effects
 				(font
@@ -31153,7 +30962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 237.49 34.29 90)
 			(effects
 				(font
@@ -31239,7 +31048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 26.67 0)
 			(effects
 				(font
@@ -31309,7 +31118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 52.07 90)
 			(effects
 				(font
@@ -31395,7 +31204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 182.88 44.45 0)
 			(effects
 				(font
@@ -31463,7 +31272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 332.74 26.67 0)
 			(effects
 				(font
@@ -31531,7 +31340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 332.74 55.88 0)
 			(effects
 				(font
@@ -31601,7 +31410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 22.86 90)
 			(effects
 				(font
@@ -31689,7 +31498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 63.5 90)
 			(effects
 				(font
@@ -31777,7 +31586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 207.01 22.86 90)
 			(effects
 				(font
@@ -31931,7 +31740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 111.76 90)
 			(effects
 				(font
@@ -32019,7 +31828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 379.73 52.07 90)
 			(effects
 				(font
@@ -32080,76 +31889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 175.26 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c57365dd-9d7e-48a9-954c-532697bc1bcf")
-		(property "Reference" "D159"
-			(at 179.07 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 179.07 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 175.26 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbff31f0-b505-41aa-ba4e-7183cd6068c9")
-		)
-		(pin "2"
-			(uuid "9a9c6407-4171-4e57-838e-aada29c36fc4")
-		)
-		(instances
-			(project "Overkeyboard"
-				(path "/c54edb05-98e9-4a9d-87ee-578aba22ab18"
-					(reference "D159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 142.24 52.07 90)
 		(unit 1)
@@ -32177,7 +31916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 142.24 52.07 90)
 			(effects
 				(font
@@ -32265,7 +32004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 292.1 63.5 90)
 			(effects
 				(font
@@ -32353,7 +32092,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 365.76 100.33 90)
 			(effects
 				(font
@@ -32439,7 +32178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 320.04 55.88 0)
 			(effects
 				(font
@@ -32509,7 +32248,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 133.35 87.63 90)
 			(effects
 				(font
@@ -32595,7 +32334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -32663,7 +32402,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 15.24 0)
 			(effects
 				(font
@@ -32731,7 +32470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -32799,7 +32538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 34.29 60.96 0)
 			(effects
 				(font
@@ -32867,7 +32606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 347.98 104.14 0)
 			(effects
 				(font
@@ -32935,7 +32674,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 156.21 68.58 0)
 			(effects
 				(font
@@ -33005,7 +32744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 182.88 63.5 90)
 			(effects
 				(font
@@ -33093,7 +32832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 36.83 20.32 0)
 			(effects
 				(font
@@ -33163,7 +32902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 76.2 90)
 			(effects
 				(font
@@ -33251,7 +32990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 127 76.2 90)
 			(effects
 				(font
@@ -33339,7 +33078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 115.57 76.2 90)
 			(effects
 				(font
@@ -33427,7 +33166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 195.58 22.86 90)
 			(effects
 				(font
@@ -33515,7 +33254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 379.73 87.63 90)
 			(effects
 				(font
@@ -33601,7 +33340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 231.14 15.24 0)
 			(effects
 				(font
@@ -33671,7 +33410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 63.5 90)
 			(effects
 				(font
@@ -33759,7 +33498,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 226.06 22.86 90)
 			(effects
 				(font
@@ -33845,7 +33584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 104.14 0)
 			(effects
 				(font
@@ -33913,7 +33652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 242.57 26.67 0)
 			(effects
 				(font
@@ -33981,7 +33720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -34051,7 +33790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 248.92 52.07 90)
 			(effects
 				(font
@@ -34137,7 +33876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 147.32 26.67 0)
 			(effects
 				(font
@@ -34207,7 +33946,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 177.8 52.07 90)
 			(effects
 				(font
@@ -34295,7 +34034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 175.26 76.2 90)
 			(effects
 				(font
@@ -34383,7 +34122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 124.46 63.5 90)
 			(effects
 				(font
@@ -34469,7 +34208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 297.18 26.67 0)
 			(effects
 				(font
@@ -34538,7 +34277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 237.49 22.86 90)
 			(effects
 				(font
@@ -34626,7 +34365,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 292.1 52.07 90)
 			(effects
 				(font
@@ -34712,7 +34451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 359.41 44.45 0)
 			(effects
 				(font
@@ -34780,7 +34519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 194.31 44.45 0)
 			(effects
 				(font
@@ -34850,7 +34589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 379.73 76.2 90)
 			(effects
 				(font
@@ -35002,7 +34741,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 171.45 44.45 0)
 			(effects
 				(font
@@ -35070,7 +34809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 222.25 104.14 0)
 			(effects
 				(font
@@ -35138,7 +34877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 246.38 80.01 0)
 			(effects
 				(font
@@ -35208,7 +34947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 113.03 90)
 			(effects
 				(font
@@ -35294,7 +35033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 99.06 26.67 0)
 			(effects
 				(font
@@ -35364,7 +35103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 130.81 34.29 90)
 			(effects
 				(font
@@ -35450,7 +35189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 92.71 0)
 			(effects
 				(font
@@ -35518,7 +35257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -35588,7 +35327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 52.07 90)
 			(effects
 				(font
@@ -35674,7 +35413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -35744,7 +35483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 314.96 34.29 90)
 			(effects
 				(font
@@ -35896,7 +35635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 320.04 105.41 0)
 			(effects
 				(font
@@ -35964,7 +35703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 123.19 15.24 0)
 			(effects
 				(font
@@ -36034,7 +35773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 342.9 63.5 90)
 			(effects
 				(font
@@ -36122,7 +35861,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 22.86 90)
 			(effects
 				(font
@@ -36210,7 +35949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 157.48 87.63 90)
 			(effects
 				(font
@@ -36296,7 +36035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 104.14 0)
 			(effects
 				(font
@@ -36366,7 +36105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 142.24 34.29 90)
 			(effects
 				(font
@@ -36427,76 +36166,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 163.83 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7525c49-61b7-4941-bdd3-15cbed694489")
-		(property "Reference" "D158"
-			(at 167.64 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 167.64 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e18e1f9-0237-4a74-8ce4-f9fb327bdb4a")
-		)
-		(pin "2"
-			(uuid "f7ad9897-fbea-4df4-b6ec-efd2265e459c")
-		)
-		(instances
-			(project "Overkeyboard"
-				(path "/c54edb05-98e9-4a9d-87ee-578aba22ab18"
-					(reference "D158")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 383.54 73.66 0)
 		(unit 1)
@@ -36522,7 +36191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 383.54 68.58 0)
 			(effects
 				(font
@@ -36592,7 +36261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 210.82 76.2 90)
 			(effects
 				(font
@@ -36653,76 +36322,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 199.39 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7df50fd-7f52-441d-b407-c26925167d7d")
-		(property "Reference" "D161"
-			(at 203.2 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 203.2 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 199.39 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19bced04-5c92-47e5-9e55-bbd23e19395c")
-		)
-		(pin "2"
-			(uuid "dc6825a7-b78e-4776-9f47-f81e9e181002")
-		)
-		(instances
-			(project "Overkeyboard"
-				(path "/c54edb05-98e9-4a9d-87ee-578aba22ab18"
-					(reference "D161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 354.33 76.2 90)
 		(unit 1)
@@ -36750,7 +36349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 76.2 90)
 			(effects
 				(font
@@ -36838,7 +36437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 217.17 100.33 90)
 			(effects
 				(font
@@ -36926,7 +36525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 279.4 63.5 90)
 			(effects
 				(font
@@ -37014,7 +36613,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 292.1 76.2 90)
 			(effects
 				(font
@@ -37100,7 +36699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -37170,7 +36769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 378.46 22.86 90)
 			(effects
 				(font
@@ -37256,7 +36855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 116.84 55.88 0)
 			(effects
 				(font
@@ -37326,7 +36925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 222.25 76.2 90)
 			(effects
 				(font
@@ -37414,7 +37013,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 217.17 111.76 90)
 			(effects
 				(font
@@ -37502,7 +37101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 303.53 34.29 90)
 			(effects
 				(font
@@ -37588,7 +37187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 266.7 15.24 0)
 			(effects
 				(font
@@ -37658,7 +37257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 52.07 90)
 			(effects
 				(font
@@ -37746,7 +37345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 354.33 34.29 90)
 			(effects
 				(font
@@ -37832,7 +37431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX_Alps_Hybrid:MX-Alps-Hybrid-1U"
 			(at 231.14 26.67 0)
 			(effects
 				(font
@@ -37869,76 +37468,6 @@
 			(project "Overkeyboard"
 				(path "/c54edb05-98e9-4a9d-87ee-578aba22ab18"
 					(reference "SW21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 151.13 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff45b96e-3db8-4eb5-899a-5d3c61e85a2e")
-		(property "Reference" "D150"
-			(at 154.94 109.5374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 154.94 112.0774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 151.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c4bc5a2-4481-4a4e-bf6e-c2f610d90b8e")
-		)
-		(pin "2"
-			(uuid "79dfd2ac-cc79-4cf9-ae20-04f5baadd3f1")
-		)
-		(instances
-			(project "Overkeyboard"
-				(path "/c54edb05-98e9-4a9d-87ee-578aba22ab18"
-					(reference "D150")
 					(unit 1)
 				)
 			)
