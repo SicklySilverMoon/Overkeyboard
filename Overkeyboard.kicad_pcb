@@ -42,6 +42,7 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
@@ -74,6 +75,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -1264,7 +1266,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D158"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "99d5af25-2102-4db4-b05d-19dcd970a33b")
 			(effects
@@ -1275,7 +1277,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 3.96 270)
+			(at 1.27 3.96 -90)
 			(layer "F.Fab")
 			(uuid "9fa31678-534a-43f7-86a0-cb6c48849911")
 			(effects
@@ -1442,7 +1444,7 @@
 			(uuid "190f25bd-e484-4b0e-99e6-c84439186ba8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "d8800734-f8fe-4251-9746-494418bb804c")
 			(effects
@@ -1953,7 +1955,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D161"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "c18dd278-4516-4051-91f5-6efa4375b36c")
 			(effects
@@ -1964,7 +1966,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 3.96 270)
+			(at 1.27 3.96 -90)
 			(layer "F.Fab")
 			(uuid "0b5ad7a4-5574-48ec-9bf8-e26777877f4d")
 			(effects
@@ -2131,7 +2133,7 @@
 			(uuid "4e1d4f2d-a4b2-45eb-bcda-2d80f0b8de72")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "f08bc0b6-c7d2-4dcf-9076-6adbb61e59dc")
 			(effects
@@ -25754,7 +25756,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D160"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "b50d0402-b7e5-4c78-bb06-177c364fcc0a")
 			(effects
@@ -25765,7 +25767,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 3.96 270)
+			(at 1.27 3.96 -90)
 			(layer "F.Fab")
 			(uuid "c7f86327-7958-45ce-a6d3-e3eb7b7c7019")
 			(effects
@@ -25932,7 +25934,7 @@
 			(uuid "6208e93f-6c35-4d37-beca-2d7f9e38c213")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "2b468df4-b9fb-4085-87eb-b644b987f46d")
 			(effects
@@ -25983,7 +25985,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D159"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "8493bf2a-3a15-40ce-9bde-887e00bdcd8f")
 			(effects
@@ -25994,7 +25996,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 3.96 270)
+			(at 1.27 3.96 -90)
 			(layer "F.Fab")
 			(uuid "fc40a823-ce18-4dcd-b609-fe02717b8c20")
 			(effects
@@ -26161,7 +26163,7 @@
 			(uuid "2392b3f2-196a-4994-a80d-68c2e227525c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "c7983f61-1f48-43c0-868c-0f05fe4098a1")
 			(effects
@@ -26902,7 +26904,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D162"
-			(at 1.27 -3.96 270)
+			(at 1.27 -3.96 -90)
 			(layer "F.SilkS")
 			(uuid "84fb7a92-0f3d-43a6-8770-2c7ac58a682e")
 			(effects
@@ -26913,7 +26915,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 3.96 270)
+			(at 1.27 3.96 -90)
 			(layer "F.Fab")
 			(uuid "9d8a22b6-063b-43bb-a1a7-a44cb2a32e31")
 			(effects
@@ -27080,7 +27082,7 @@
 			(uuid "c6f785d4-c0f4-4284-8faf-4519a4432fd3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 270)
+			(at 1.25 0 -90)
 			(layer "F.Fab")
 			(uuid "ebbf636a-f4c1-4ba6-b0e5-359d1e25c836")
 			(effects
@@ -38944,7 +38946,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "060aa324-11b2-42d5-942f-d01fc0220025")
@@ -53744,7 +53746,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "ee167ada-6816-4a97-9e99-0e093cfc0737")
@@ -68520,7 +68522,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "a745e593-a3a9-4c89-a85b-e552503a9d1b")
@@ -71670,7 +71672,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "e33ae3d4-b549-435e-afdc-ff1e61151592")
@@ -71886,7 +71888,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "eb1cb006-2f50-4a30-8111-cf4f7975cb7f")
@@ -73406,7 +73408,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "d4f7ae80-b297-49f6-b6f4-ca9200a26c02")
@@ -78512,7 +78514,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "fa71c158-38f4-4831-856e-4262db11333e")
@@ -81320,7 +81322,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "8ec1eac1-e2f7-4a24-93a8-6c76e519a027")
@@ -91352,7 +91354,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22Ω"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(uuid "b358aa01-c959-4eb8-8ea6-0b862338840a")

@@ -13747,7 +13747,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22Ω"
 			(at 27.94 53.34 90)
 			(effects
 				(font
@@ -15838,7 +15838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 153.67 104.1399 0)
 			(effects
 				(font
@@ -23226,7 +23226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 177.8 104.1399 0)
 			(effects
 				(font
@@ -27243,7 +27243,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22Ω"
 			(at 34.29 50.8 90)
 			(effects
 				(font
@@ -27380,7 +27380,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 24.13 76.2 90)
 			(effects
 				(font
@@ -34141,7 +34141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 189.23 104.1399 0)
 			(effects
 				(font
@@ -34787,7 +34787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 166.37 104.1399 0)
 			(effects
 				(font
@@ -35725,7 +35725,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 39.37 21.5899 0)
 			(effects
 				(font
@@ -37556,7 +37556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "100Ω"
 			(at 201.93 104.1399 0)
 			(effects
 				(font
